@@ -1,0 +1,99 @@
+.section{
+    margin: 50px 100px;
+    padding:20px;
+}
+
+.container{
+    padding: 30px;
+    width:100%;
+    border: 1px solid black;
+}
+
+.container h1{
+    text-align: center;
+    color: green;
+}
+
+.row{
+    padding: 20px;
+}
+
+h4{
+    text-align: right;
+}
+
+.table{
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th{
+    background-color: rgb(226, 225, 225);
+}
+
+td{
+    background-color: rgb(147, 171, 137);
+}
+
+th,td{
+    border: 2px solid black; 
+    padding: 10px;
+    text-align: center;
+}
+
+input,select{
+    width: 100%;
+    padding: 10px;
+}
+
+.filter{
+    padding: 10px;
+}
+
+.left-filter{
+    text-align: right;
+}
+
+#filter{
+    width: 200px;
+}
+
+.buttAdd{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+}
+
+.butt{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Edit,.Delete{
+    width:100px;
+    border: none;
+    padding: 6px;
+}
+
+.Edit{
+    background-color: darkolivegreen;
+    color: white;
+}
+
+.Delete{
+    background-color: brown;
+    color: white;
+}
